@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+    <title>Raffle maker</title>
+</head>
+
+<body>
+
+    <h1>Sorte grande</h1>
+    <h2>Aqui você tira a sorte grande!</h2>
+    <div class="segunda">
+        <input type="number" placeholder="DE" class="one">
+        <input type="number" placeholder="ATÉ" class="two">
+    </div>
+    <button onclick="executarFuncoes()" class="button" addEve>Sortear</button>
+    <div class="resultado">
+        <img src="./img/new-moon.png">
+        <p id="theEnd"></p>
+        <p id="premiacao">PARABÉNS!</p>
+    </div>
+    <div class="mascara" onclick="retorno()"></div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
